@@ -1,0 +1,206 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C_8051\LAB_3\LED_7SEG_4_2\LED_7SEG_4_2.uvproj
+Project File Date:  11/07/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(22): error C205: can't call an interrupt function
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay_timer.c...
+delay_timer.c(32): warning C206: 'delay_hardware_1s': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY_HARDWARE_1S
+    MODULE:  delay_timer.obj (DELAY_TIMER)
+    ADDRESS: 0834H
+Program Size: data=9.0 xdata=0 code=71
+creating hex file from "LED_7SEG_4_2"...
+"LED_7SEG_4_2" - 0 Error(s), 3 Warning(s).

@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C_8051\LAB_6\LAB_6.uvproj
+Project File Date:  11/21/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+linking...
+Program Size: data=13.0 xdata=0 code=142
+"LAB_6" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+linking...
+Program Size: data=13.0 xdata=0 code=142
+creating hex file from "LAB_6"...
+"LAB_6" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+UART.c(24): error C101: ''b': invalid character constant
+UART.c(24): error C141: syntax error near 'am'
+UART.c(24): error C202: 'am': undefined identifier
+UART.c(24): error C101: '')': invalid character constant
+UART.c(24): error C141: syntax error near ':'
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+UART.c(24): error C101: ''b': invalid character constant
+UART.c(24): error C141: syntax error near 'amconcac'
+UART.c(24): error C101: '')': invalid character constant
+UART.c(24): error C202: 'amconcac': undefined identifier
+UART.c(24): error C141: syntax error near ':'
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+UART.c(19): error C214: illegal pointer conversion
+UART.c(30): error C101: ''b': invalid character constant
+UART.c(30): error C141: syntax error near 'am'
+UART.c(30): error C202: 'am': undefined identifier
+UART.c(30): error C101: '')': invalid character constant
+UART.c(30): error C141: syntax error near ':'
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+UART.c(19): error C214: illegal pointer conversion
+UART.c(30): error C101: ''b': invalid character constant
+UART.c(30): error C141: syntax error near 'am'
+UART.c(30): error C202: 'am': undefined identifier
+UART.c(30): error C101: '')': invalid character constant
+UART.c(30): error C141: syntax error near ':'
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling UART.c...
+linking...
+Program Size: data=13.0 xdata=0 code=142
+creating hex file from "LAB_6"...
+"LAB_6" - 0 Error(s), 0 Warning(s).

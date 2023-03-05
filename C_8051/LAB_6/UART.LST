@@ -1,0 +1,100 @@
+C51 COMPILER V9.52.0.0   UART                                                              11/21/2022 15:11:56 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE UART
+OBJECT MODULE PLACED IN UART.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE UART.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include <at89x51.h>
+   2          
+   3          unsigned char chuc, dvi, rdata, nhietdo;
+   4          void setup()
+   5          {
+   6   1          TMOD = 0x20; //;enable  timer1, mode2 (auto reload)
+   7   1          TH1 = -3;    // 9600  Baud  rate
+   8   1          SCON = 0x50; //;8 bit uart, 1 stop  bit,  REN enabled,  timer1
+   9   1          TR1 = 1;
+  10   1          IE = 0x90;
+  11   1      }
+  12          void serint(void) interrupt 4 using 1
+  13          {
+  14   1          if (RI)
+  15   1      
+  16   1          {
+  17   2      
+  18   2              rdata = SBUF;
+  19   2      
+  20   2              RI = 0;
+  21   2      
+  22   2              switch (rdata)
+  23   2              {
+  24   3              case ('0'):
+  25   3              {
+  26   4                  P0_7 = 0;
+  27   4                  break;
+  28   4              }
+  29   3              case ('1'):
+  30   3              {
+  31   4                  P0_7 = 1;
+  32   4                  break;
+  33   4              }
+  34   3              case ('a'):
+  35   3              {
+  36   4                  TH1 = -24;
+  37   4                  break;
+  38   4              }
+  39   3              case ('b'):
+  40   3              {
+  41   4                  TH1 = -12;
+  42   4                  break;
+  43   4              }
+  44   3              case ('c'):
+  45   3              {
+  46   4                  TH1 = -6;
+  47   4                  break;
+  48   4              }
+  49   3              case ('d'):
+  50   3              {
+  51   4                  TH1 = -3;
+  52   4                  break;
+  53   4              }
+  54   3              }
+  55   2          }
+C51 COMPILER V9.52.0.0   UART                                                              11/21/2022 15:11:56 PAGE 2   
+
+  56   1      }
+  57          void main()
+  58          {
+  59   1          unsigned char trans_data;
+  60   1          setup();
+  61   1          while (1)
+  62   1          { //  lay du  dieu
+  63   2      
+  64   2              nhietdo = P1;
+  65   2              //   chuyen doi hien  thi
+  66   2              chuc = (nhietdo / 10) << 4;
+  67   2              dvi = nhietdo % 10;
+  68   2              P2 = chuc | dvi;
+  69   2              //  truyen  du  lieu
+  70   2              trans_data = P2;
+  71   2              SBUF = trans_data;
+  72   2              while (TI == 0);
+  73   2              TI = 0;
+  74   2          }
+  75   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    124    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

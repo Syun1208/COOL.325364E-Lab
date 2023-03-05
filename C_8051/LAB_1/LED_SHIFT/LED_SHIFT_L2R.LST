@@ -1,0 +1,100 @@
+C51 COMPILER V9.52.0.0   LED_SHIFT_L2R                                                     10/31/2022 13:20:15 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE LED_SHIFT_L2R
+OBJECT MODULE PLACED IN LED_SHIFT_L2R.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE LED_SHIFT_L2R.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include <stdio.h>
+   3          
+   4          sbit LED0 = P0^0;
+   5          sbit LED1 = P0^1;
+   6          sbit LED2 = P0^2;
+   7          sbit LED3 = P0^3;
+   8          sbit LED4 = P0^4;
+   9          sbit LED5 = P0^5;
+  10          sbit LED6 = P0^6;
+  11          sbit LED7 = P0^7;
+  12          
+  13          
+  14          void delay_ms(unsigned int time)
+  15          {
+  16   1          unsigned int i,j;
+  17   1          for(i=0;i<time;i++)
+  18   1          {
+  19   2              for(j=0;j<100;j++);
+  20   2          }
+  21   1      }
+  22          
+  23          void shift_bit(unsigned int number){
+  24   1        switch (number)
+  25   1          {
+  26   2          case 0:
+  27   2              LED0 = 1;
+  28   2              LED1 = LED2 = LED3 = LED4 = LED5 = LED6 = LED7 = 0;
+  29   2              break;
+  30   2          case 1:
+  31   2              LED1 = 1;
+  32   2              LED0 = LED2 = LED3 = LED4 = LED5 = LED6 = LED7 = 0;
+  33   2          break;
+  34   2          case 2:
+  35   2              LED2 = 1;
+  36   2              LED0 = LED1 = LED3 = LED4 = LED5 = LED6 = LED7 = 0;
+  37   2              break;
+  38   2          case 3:
+  39   2              LED3 = 1;
+  40   2              LED0 = LED2 = LED1 = LED4 = LED5 = LED6 = LED7 = 0;
+  41   2              break;
+  42   2          case 4:
+  43   2              LED4 = 1;
+  44   2              LED0 = LED2 = LED3 = LED1 = LED5 = LED6 = LED7 = 0;
+  45   2              break;
+  46   2          case 5:
+  47   2              LED5 = 1;
+  48   2              LED0 = LED2 = LED3 = LED1 = LED4 = LED6 = LED7 = 0;
+  49   2              break;
+  50   2          case 6:
+  51   2              LED6 = 1;
+  52   2              LED0 = LED2 = LED3 = LED1 = LED5 = LED4 = LED7 = 0;
+  53   2              break;
+  54   2          case 7:
+  55   2              LED7 = 1;
+C51 COMPILER V9.52.0.0   LED_SHIFT_L2R                                                     10/31/2022 13:20:15 PAGE 2   
+
+  56   2              LED0 = LED2 = LED3 = LED1 = LED5 = LED6 = LED4 = 0;
+  57   2              break;
+  58   2          default:
+  59   2              break;
+  60   2          }
+  61   1      }
+  62          int main()
+  63          {
+  64   1        unsigned int number;
+  65   1          while (1)
+  66   1          { 
+  67   2              for(number = 0; number < 9; ++number)
+  68   2              {
+  69   3                  shift_bit(number);
+  70   3                  delay_ms(500);
+  71   3              }
+  72   2          }
+  73   1        return 0;
+  74   1      }
+*** WARNING C294 IN LINE 73 OF LED_SHIFT_L2R.c: unreachable code
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    235    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

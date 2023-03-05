@@ -1,0 +1,494 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C_8051\LED_DEMOs\TEST.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(29): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=80
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(29): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=80
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(30): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=83
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(30): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=83
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(16): error C202: 'p3': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(33): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=89
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(17): error C141: syntax error near '.0'
+LED.c(18): error C141: syntax error near '.1'
+LED.c(19): error C141: syntax error near '.2'
+LED.c(20): error C141: syntax error near '.3'
+LED.c(21): error C141: syntax error near '.4'
+LED.c(22): error C141: syntax error near '.5'
+LED.c(23): error C141: syntax error near '.6'
+LED.c(24): error C141: syntax error near '.7'
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(33): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=89
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(26): error C141: syntax error near '}', expected ';'
+LED.c(47): error C202: 'P1_0': undefined identifier
+LED.c(48): error C202: 'P1_1': undefined identifier
+LED.c(49): error C202: 'P1_2': undefined identifier
+LED.c(50): error C202: 'P1_3': undefined identifier
+LED.c(51): error C202: 'P1_4': undefined identifier
+LED.c(52): error C202: 'P1_5': undefined identifier
+LED.c(53): error C202: 'P1_6': undefined identifier
+LED.c(54): error C202: 'P1_7': undefined identifier
+LED.c(56): error C202: 'P1_0': undefined identifier
+LED.c(57): error C202: 'P1_1': undefined identifier
+LED.c(58): error C202: 'P1_2': undefined identifier
+LED.c(59): error C202: 'P1_3': undefined identifier
+LED.c(60): error C202: 'P1_4': undefined identifier
+LED.c(61): error C202: 'P1_5': undefined identifier
+LED.c(62): error C202: 'P1_6': undefined identifier
+LED.c(63): error C202: 'P1_7': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(23): warning C280: 'number': unreferenced local variable
+LED.c(47): error C202: 'P1_0': undefined identifier
+LED.c(48): error C202: 'P1_1': undefined identifier
+LED.c(49): error C202: 'P1_2': undefined identifier
+LED.c(50): error C202: 'P1_3': undefined identifier
+LED.c(51): error C202: 'P1_4': undefined identifier
+LED.c(52): error C202: 'P1_5': undefined identifier
+LED.c(53): error C202: 'P1_6': undefined identifier
+LED.c(54): error C202: 'P1_7': undefined identifier
+LED.c(56): error C202: 'P1_0': undefined identifier
+LED.c(57): error C202: 'P1_1': undefined identifier
+LED.c(58): error C202: 'P1_2': undefined identifier
+LED.c(59): error C202: 'P1_3': undefined identifier
+LED.c(60): error C202: 'P1_4': undefined identifier
+LED.c(61): error C202: 'P1_5': undefined identifier
+LED.c(62): error C202: 'P1_6': undefined identifier
+LED.c(63): error C202: 'P1_7': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(44): error C202: 'P1_0': undefined identifier
+LED.c(45): error C202: 'P1_1': undefined identifier
+LED.c(46): error C202: 'P1_2': undefined identifier
+LED.c(47): error C202: 'P1_3': undefined identifier
+LED.c(48): error C202: 'P1_4': undefined identifier
+LED.c(49): error C202: 'P1_5': undefined identifier
+LED.c(50): error C202: 'P1_6': undefined identifier
+LED.c(51): error C202: 'P1_7': undefined identifier
+LED.c(53): error C202: 'P1_0': undefined identifier
+LED.c(54): error C202: 'P1_1': undefined identifier
+LED.c(55): error C202: 'P1_2': undefined identifier
+LED.c(56): error C202: 'P1_3': undefined identifier
+LED.c(57): error C202: 'P1_4': undefined identifier
+LED.c(58): error C202: 'P1_5': undefined identifier
+LED.c(59): error C202: 'P1_6': undefined identifier
+LED.c(60): error C202: 'P1_7': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(44): error C202: 'P1_0': undefined identifier
+LED.c(45): error C202: 'P1_1': undefined identifier
+LED.c(46): error C202: 'P1_2': undefined identifier
+LED.c(47): error C202: 'P1_3': undefined identifier
+LED.c(48): error C202: 'P1_4': undefined identifier
+LED.c(49): error C202: 'P1_5': undefined identifier
+LED.c(50): error C202: 'P1_6': undefined identifier
+LED.c(51): error C202: 'P1_7': undefined identifier
+LED.c(53): error C202: 'P1_0': undefined identifier
+LED.c(54): error C202: 'P1_1': undefined identifier
+LED.c(55): error C202: 'P1_2': undefined identifier
+LED.c(56): error C202: 'P1_3': undefined identifier
+LED.c(57): error C202: 'P1_4': undefined identifier
+LED.c(58): error C202: 'P1_5': undefined identifier
+LED.c(59): error C202: 'P1_6': undefined identifier
+LED.c(60): error C202: 'P1_7': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(44): error C202: 'P1_0': undefined identifier
+LED.c(44): error C141: syntax error near '0'
+LED.c(45): error C202: 'P1_1': undefined identifier
+LED.c(45): error C141: syntax error near '0'
+LED.c(46): error C202: 'P1_2': undefined identifier
+LED.c(46): error C141: syntax error near '0'
+LED.c(47): error C202: 'P1_3': undefined identifier
+LED.c(47): error C141: syntax error near '0'
+LED.c(48): error C202: 'P1_4': undefined identifier
+LED.c(48): error C141: syntax error near '0'
+LED.c(49): error C202: 'P1_5': undefined identifier
+LED.c(49): error C141: syntax error near '0'
+LED.c(50): error C202: 'P1_6': undefined identifier
+LED.c(50): error C141: syntax error near '0'
+LED.c(51): error C202: 'P1_7': undefined identifier
+LED.c(51): error C141: syntax error near '0'
+LED.c(53): error C202: 'P1_0': undefined identifier
+LED.c(53): error C141: syntax error near '0'
+LED.c(54): error C202: 'P1_1': undefined identifier
+LED.c(54): error C141: syntax error near '0'
+LED.c(55): error C202: 'P1_2': undefined identifier
+LED.c(55): error C141: syntax error near '0'
+LED.c(56): error C202: 'P1_3': undefined identifier
+LED.c(56): error C141: syntax error near '0'
+LED.c(57): error C202: 'P1_4': undefined identifier
+LED.c(57): error C141: syntax error near '0'
+LED.c(58): error C202: 'P1_5': undefined identifier
+LED.c(58): error C141: syntax error near '0'
+LED.c(59): error C202: 'P1_6': undefined identifier
+LED.c(59): error C141: syntax error near '0'
+LED.c(60): error C202: 'P1_7': undefined identifier
+LED.c(60): error C141: syntax error near '0'
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(14): error C143: invalid absolute bit address
+LED.c(15): error C143: invalid absolute bit address
+LED.c(41): error C202: 'LED0': undefined identifier
+LED.c(42): error C202: 'LED1': undefined identifier
+LED.c(43): error C202: 'LED2': undefined identifier
+LED.c(44): error C202: 'LED3': undefined identifier
+LED.c(45): error C202: 'LED4': undefined identifier
+LED.c(46): error C202: 'LED5': undefined identifier
+LED.c(47): error C202: 'LED6': undefined identifier
+LED.c(48): error C202: 'LED7': undefined identifier
+LED.c(50): error C202: 'LED0': undefined identifier
+LED.c(51): error C202: 'LED1': undefined identifier
+LED.c(52): error C202: 'LED2': undefined identifier
+LED.c(53): error C202: 'LED3': undefined identifier
+LED.c(54): error C202: 'LED4': undefined identifier
+LED.c(55): error C202: 'LED5': undefined identifier
+LED.c(56): error C202: 'LED6': undefined identifier
+LED.c(57): error C202: 'LED7': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(14): error C143: invalid absolute bit address
+LED.c(15): error C143: invalid absolute bit address
+LED.c(41): error C202: 'on': undefined identifier
+LED.c(42): error C202: 'off': undefined identifier
+LED.c(43): error C202: 'on': undefined identifier
+LED.c(44): error C202: 'off': undefined identifier
+LED.c(45): error C202: 'on': undefined identifier
+LED.c(46): error C202: 'off': undefined identifier
+LED.c(47): error C202: 'on': undefined identifier
+LED.c(48): error C202: 'off': undefined identifier
+LED.c(50): error C202: 'off': undefined identifier
+LED.c(51): error C202: 'on': undefined identifier
+LED.c(52): error C202: 'off': undefined identifier
+LED.c(53): error C202: 'on': undefined identifier
+LED.c(54): error C202: 'off': undefined identifier
+LED.c(55): error C202: 'on': undefined identifier
+LED.c(56): error C202: 'off': undefined identifier
+LED.c(57): error C202: 'on': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(17): error C202: 'off': undefined identifier
+LED.c(18): error C141: syntax error near 'unsigned'
+LED.c(18): error C202: 'i': undefined identifier
+LED.c(19): error C202: 'i': undefined identifier
+LED.c(21): error C202: 'j': undefined identifier
+LED.c(40): error C202: 'on': undefined identifier
+LED.c(41): error C202: 'off': undefined identifier
+LED.c(42): error C202: 'on': undefined identifier
+LED.c(43): error C202: 'off': undefined identifier
+LED.c(44): error C202: 'on': undefined identifier
+LED.c(45): error C202: 'off': undefined identifier
+LED.c(46): error C202: 'on': undefined identifier
+LED.c(47): error C202: 'off': undefined identifier
+LED.c(49): error C202: 'off': undefined identifier
+LED.c(50): error C202: 'on': undefined identifier
+LED.c(51): error C202: 'off': undefined identifier
+LED.c(52): error C202: 'on': undefined identifier
+LED.c(53): error C202: 'off': undefined identifier
+LED.c(54): error C202: 'on': undefined identifier
+LED.c(55): error C202: 'off': undefined identifier
+LED.c(56): error C202: 'on': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(17): error C202: 'off': undefined identifier
+LED.c(18): error C141: syntax error near 'unsigned'
+LED.c(18): error C202: 'i': undefined identifier
+LED.c(19): error C202: 'i': undefined identifier
+LED.c(21): error C202: 'j': undefined identifier
+LED.c(40): error C202: 'on': undefined identifier
+LED.c(41): error C202: 'off': undefined identifier
+LED.c(42): error C202: 'on': undefined identifier
+LED.c(43): error C202: 'off': undefined identifier
+LED.c(44): error C202: 'on': undefined identifier
+LED.c(45): error C202: 'off': undefined identifier
+LED.c(46): error C202: 'on': undefined identifier
+LED.c(47): error C202: 'off': undefined identifier
+LED.c(49): error C202: 'off': undefined identifier
+LED.c(50): error C202: 'on': undefined identifier
+LED.c(51): error C202: 'off': undefined identifier
+LED.c(52): error C202: 'on': undefined identifier
+LED.c(53): error C202: 'off': undefined identifier
+LED.c(54): error C202: 'on': undefined identifier
+LED.c(55): error C202: 'off': undefined identifier
+LED.c(56): error C202: 'on': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+C:\Keil\C51\Inc\Atmel\at89x51.h(15): error C231: 'P0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(16): error C231: 'SP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(17): error C231: 'DPL': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(18): error C231: 'DPH': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(19): error C231: 'PCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(20): error C231: 'TCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(21): error C231: 'TMOD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(22): error C231: 'TL0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(23): error C231: 'TL1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(24): error C231: 'TH0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(25): error C231: 'TH1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(26): error C231: 'P1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(27): error C231: 'SCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(28): error C231: 'SBUF': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(29): error C231: 'P2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(30): error C231: 'IE': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(31): error C231: 'P3': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(32): error C231: 'IP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(33): error C231: 'PSW': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(34): error C231: 'ACC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(35): error C231: 'B': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(65): error C231: 'IT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(66): error C231: 'IE0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(67): error C231: 'IT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(68): error C231: 'IE1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(69): error C231: 'TR0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(70): error C231: 'TF0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(71): error C231: 'TR1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(72): error C231: 'TF1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(104): error C231: 'RI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(105): error C231: 'TI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(106): error C231: 'RB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(107): error C231: 'TB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(108): error C231: 'REN': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(109): error C231: 'SM2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(110): error C231: 'SM1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(111): error C231: 'SM0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(128): error C231: 'EX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(129): error C231: 'ET0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(130): error C231: 'EX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(131): error C231: 'ET1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(132): error C231: 'ES': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(135): error C231: 'EA': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(149): error C231: 'RXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(150): error C231: 'TXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(151): error C231: 'INT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(152): error C231: 'INT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(153): error C231: 'T0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(154): error C231: 'T1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(155): error C231: 'WR': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(156): error C231: 'RD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(161): error C231: 'PX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(162): error C231: 'PT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(163): error C231: 'PX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(164): error C231: 'PT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(165): error C231: 'PS': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(171): error C231: 'P': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(173): error C231: 'OV': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(174): error C231: 'RS0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(175): error C231: 'RS1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(176): error C231: 'F0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(177): error C231: 'AC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(178): error C231: 'CY': redefinition
+LED.c(18): error C141: syntax error near '1'
+LED.c(18): error C141: syntax error near '='
+LED.c(18): error C141: syntax error near '='
+LED.c(19): error C141: syntax error near 'unsigned'
+LED.c(19): error C202: 'i': undefined identifier
+LED.c(20): error C202: 'i': undefined identifier
+LED.c(22): error C202: 'j': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+C:\Keil\C51\Inc\Atmel\at89x51.h(15): error C231: 'P0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(16): error C231: 'SP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(17): error C231: 'DPL': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(18): error C231: 'DPH': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(19): error C231: 'PCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(20): error C231: 'TCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(21): error C231: 'TMOD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(22): error C231: 'TL0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(23): error C231: 'TL1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(24): error C231: 'TH0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(25): error C231: 'TH1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(26): error C231: 'P1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(27): error C231: 'SCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(28): error C231: 'SBUF': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(29): error C231: 'P2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(30): error C231: 'IE': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(31): error C231: 'P3': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(32): error C231: 'IP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(33): error C231: 'PSW': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(34): error C231: 'ACC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(35): error C231: 'B': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(65): error C231: 'IT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(66): error C231: 'IE0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(67): error C231: 'IT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(68): error C231: 'IE1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(69): error C231: 'TR0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(70): error C231: 'TF0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(71): error C231: 'TR1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(72): error C231: 'TF1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(104): error C231: 'RI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(105): error C231: 'TI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(106): error C231: 'RB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(107): error C231: 'TB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(108): error C231: 'REN': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(109): error C231: 'SM2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(110): error C231: 'SM1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(111): error C231: 'SM0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(128): error C231: 'EX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(129): error C231: 'ET0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(130): error C231: 'EX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(131): error C231: 'ET1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(132): error C231: 'ES': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(135): error C231: 'EA': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(149): error C231: 'RXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(150): error C231: 'TXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(151): error C231: 'INT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(152): error C231: 'INT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(153): error C231: 'T0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(154): error C231: 'T1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(155): error C231: 'WR': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(156): error C231: 'RD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(161): error C231: 'PX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(162): error C231: 'PT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(163): error C231: 'PX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(164): error C231: 'PT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(165): error C231: 'PS': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(171): error C231: 'P': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(173): error C231: 'OV': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(174): error C231: 'RS0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(175): error C231: 'RS1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(176): error C231: 'F0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(177): error C231: 'AC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(178): error C231: 'CY': redefinition
+LED.c(18): error C141: syntax error near '1'
+LED.c(18): error C141: syntax error near '='
+LED.c(18): error C141: syntax error near '='
+LED.c(19): error C141: syntax error near 'unsigned'
+LED.c(19): error C202: 'i': undefined identifier
+LED.c(20): error C202: 'i': undefined identifier
+LED.c(22): error C202: 'j': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+C:\Keil\C51\Inc\Atmel\at89x51.h(15): error C231: 'P0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(16): error C231: 'SP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(17): error C231: 'DPL': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(18): error C231: 'DPH': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(19): error C231: 'PCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(20): error C231: 'TCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(21): error C231: 'TMOD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(22): error C231: 'TL0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(23): error C231: 'TL1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(24): error C231: 'TH0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(25): error C231: 'TH1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(26): error C231: 'P1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(27): error C231: 'SCON': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(28): error C231: 'SBUF': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(29): error C231: 'P2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(30): error C231: 'IE': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(31): error C231: 'P3': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(32): error C231: 'IP': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(33): error C231: 'PSW': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(34): error C231: 'ACC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(35): error C231: 'B': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(65): error C231: 'IT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(66): error C231: 'IE0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(67): error C231: 'IT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(68): error C231: 'IE1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(69): error C231: 'TR0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(70): error C231: 'TF0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(71): error C231: 'TR1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(72): error C231: 'TF1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(104): error C231: 'RI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(105): error C231: 'TI': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(106): error C231: 'RB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(107): error C231: 'TB8': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(108): error C231: 'REN': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(109): error C231: 'SM2': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(110): error C231: 'SM1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(111): error C231: 'SM0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(128): error C231: 'EX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(129): error C231: 'ET0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(130): error C231: 'EX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(131): error C231: 'ET1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(132): error C231: 'ES': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(135): error C231: 'EA': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(149): error C231: 'RXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(150): error C231: 'TXD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(151): error C231: 'INT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(152): error C231: 'INT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(153): error C231: 'T0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(154): error C231: 'T1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(155): error C231: 'WR': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(156): error C231: 'RD': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(161): error C231: 'PX0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(162): error C231: 'PT0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(163): error C231: 'PX1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(164): error C231: 'PT1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(165): error C231: 'PS': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(171): error C231: 'P': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(173): error C231: 'OV': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(174): error C231: 'RS0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(175): error C231: 'RS1': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(176): error C231: 'F0': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(177): error C231: 'AC': redefinition
+C:\Keil\C51\Inc\Atmel\at89x51.h(178): error C231: 'CY': redefinition
+Target not created
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(58): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=91
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED.c...
+LED.c(58): warning C294: unreachable code
+linking...
+Program Size: data=9.0 xdata=0 code=91
+creating hex file from "TEST"...
+"TEST" - 0 Error(s), 1 Warning(s).

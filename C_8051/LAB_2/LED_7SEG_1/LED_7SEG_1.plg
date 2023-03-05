@@ -1,0 +1,156 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C_8051\LED_7SEG_1\LED_7SEG_1.uvproj
+Project File Date:  10/31/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+Target has no object modules
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(2): warning C315: unknown #directive 'defineucharunsignedchar'
+LED_7SEG_1.C(3): warning C315: unknown #directive 'defineuintunsignedint'
+LED_7SEG_1.C(11): error C141: syntax error near 'x99'
+LED_7SEG_1.C(14): error C141: syntax error near '{'
+LED_7SEG_1.C(19): error C247: non-address/-constant initializer
+LED_7SEG_1.C(20): error C141: syntax error near 'for'
+LED_7SEG_1.C(20): error C141: syntax error near '=', expected ')'
+LED_7SEG_1.C(20): error C129: missing ';' before '<'
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(46): error C141: syntax error near 'P2'
+LED_7SEG_1.C(47): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(46): error C141: syntax error near 'P2'
+LED_7SEG_1.C(47): error C141: syntax error near '}'
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(46): error C141: syntax error near 'P2'
+LED_7SEG_1.C(47): error C141: syntax error near '}'
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=392
+"LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=392
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=392
+creating hex file from "D:\Desktop\LED_7SEG_1"...
+"D:\Desktop\LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(10): warning C280: 'donvi': unreferenced local variable
+LED_7SEG_1.C(10): warning C280: 'chuc': unreferenced local variable
+LED_7SEG_1.C(39): error C202: 'chuc': undefined identifier
+LED_7SEG_1.C(40): error C202: 'donvi': undefined identifier
+LED_7SEG_1.C(46): error C202: 'chuc': undefined identifier
+LED_7SEG_1.C(47): error C202: 'donvi': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(40): error C202: 'i': undefined identifier
+LED_7SEG_1.C(41): error C202: 'i': undefined identifier
+LED_7SEG_1.C(48): error C202: 'dig': undefined identifier
+LED_7SEG_1.C(49): error C202: 'dig': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(38): error C202: 'i': undefined identifier
+LED_7SEG_1.C(39): error C202: 'i': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(18): error C267: 'decoder': requires ANSI-style prototype
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(39): error C202: 'i': undefined identifier
+LED_7SEG_1.C(40): error C202: 'i': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+LED_7SEG_1.C(39): error C202: 'i': undefined identifier
+LED_7SEG_1.C(40): error C202: 'i': undefined identifier
+Target not created
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?LED_7SEG_1
+Program Size: data=35.0 xdata=0 code=385
+creating hex file from "D:\Desktop\LED_7SEG_1"...
+"D:\Desktop\LED_7SEG_1" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?LED_7SEG_1
+Program Size: data=37.0 xdata=0 code=391
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=398
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=398
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+Program Size: data=37.0 xdata=0 code=398
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling LED_7SEG_1.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?LED_7SEG_1
+Program Size: data=37.0 xdata=0 code=391
+creating hex file from "LED_7SEG_1"...
+"LED_7SEG_1" - 0 Error(s), 1 Warning(s).

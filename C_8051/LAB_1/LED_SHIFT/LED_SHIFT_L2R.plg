@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C_8051\LED_SHIFT\LED_SHIFT_L2R.uvproj
+Project File Date:  10/24/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling LED_SHIFT_L2R.c...
+LED_SHIFT_L2R.c(73): warning C294: unreachable code
+linking...
+Program Size: data=11.0 xdata=0 code=250
+creating hex file from "LED_SHIFT_L2R"...
+"LED_SHIFT_L2R" - 0 Error(s), 1 Warning(s).
